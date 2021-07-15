@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.header {
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+
+    &__file {
+        width: 310px;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-top: 5px;
+
+    &__fields {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__refs {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 5px 0;
+        width: 100%;
+
+        &-input {
+            margin-right: 5px;
+        }
+    }
+
+    &__buttons {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-evenly;
+
+        &-item {
+            width: 45%;
+        }
+    }
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.field-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
